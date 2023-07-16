@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Actividad. Realización de una página web utilizando Javascript</title>
+  <link rel="stylesheet" href="master.css">
+  <script src="funciones.js"></script>
+</head>
+
+<body>
+  <h1>Formato de registro</h1>
+  <form action="/my-handling-form-page" method="post">
+    <ul>
+      <li>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+      </li>
+      <li>
+        <label for="nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="nacimiento" name="nacimiento">
+      </li>
+      <li>
+        <label for="direccion">Direccion:</label>
+        <input type="text" id="direccion" name="direccion">
+      </li>
+      <li>
+        <label for="curp">Curp:</label>
+        <input type="text" id="curp" name="curp">
+      </li>
+      <li>
+        <label for="mail">Correo electrónico:</label>
+        <input type="text" id="mail" name="mail">
+      </li>
+      <li>
+        <label for="msg">Mensaje:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </li>
+      <li class="button">
+        <button id='mandar' type="submit">Mandar</button>
+      </li>
+    </ul>
+  </form>
+</body>
+
+</html>

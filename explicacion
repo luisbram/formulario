@@ -1,0 +1,26 @@
+Actividad. Realización de una página web utilizando Javascript
+
+
+para la realizacion de este formulario se necesitaron 3 archivos principales
+
+- formulario.html
+- funciones.js
+- mater.class
+
+formulario.html
+
+basicamente aqui se declara todo el contenido de marquaje necesario siendo el elemento principal el formulario
+dentro del cual se vierten todos los elementos del formato de registro como son los elementos de tipo input
+y un boton de tipo submit.
+
+
+funciones.js
+
+este archivo practicamente es el que se entrega la mayor cantidad de contenido dado que se declara una funcion
+de tipo escuchador de eventos para cada input, estableciendo el tipo de cambio la entrada de datos de cada input text,
+el evento necesario para que cada expresion regular pueda ser ejecutada y con esto validar si la entrada de dicho campo es incorrecta
+
+master.css
+
+por ultimo este archivo contiene los elementos necesarios para dar un poco de formato e identacion basica para mostrar un
+contenido en el UI un poco mas homologado e uniforme
